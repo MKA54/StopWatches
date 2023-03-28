@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/gothampro.ttf') format('ttf')
+}
+
+body {
+    background-color: #353638;
+    font-family: 'Gotham Pro', Arial, Verdana, 'Microsoft Sans Serif', sans-serif;
+    font-size: 15px;
+    color: #FFF;
+}
+button {
+    background-color: #696969;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
